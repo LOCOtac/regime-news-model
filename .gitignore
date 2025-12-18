@@ -1,3 +1,4 @@
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -205,3 +206,11 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+.venv/
+__pycache__/
+*.pyc
+data/cache/
+src/secrets_local.py
+
+.DS_Store
