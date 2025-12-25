@@ -14,7 +14,7 @@ def main():
     p.add_argument("--start", default="2015-01-01")
     p.add_argument("--end", default=None)
     p.add_argument("--offline", action="store_true")
-    p.add_argument("--n_regimes", type=int, default=4)
+    p.add_argument("--n_regimes", type=int, default=3)
     args = p.parse_args()
 
     out = run_pipeline(
